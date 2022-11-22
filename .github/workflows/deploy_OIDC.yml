@@ -20,7 +20,7 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: dev
+    #environment: dev
     steps:
       - name: 'Downloading artifact'
         uses: dawidd6/action-download-artifact@v2

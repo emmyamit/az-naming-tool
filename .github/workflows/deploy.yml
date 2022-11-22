@@ -1,0 +1,58 @@
+name: Deploy to Development
+on:
+  workflow_dispatch:
+    inputs:
+      build-id:
+        description: Build workflow run id to pick artifacts for deploy.
+        required: true
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  ARTIFACT: az-naming-tool
+  BICEP_FILE: main.bicep
+  LOCATION: eastus2
+  ENVIRONMENT: dev
+  WORKLOAD: gov
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - name: 'Downloading artifact'
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          workflow: build.yml
+          run_id: ${{inputs.build-id}}
+      - name: Azure Login
+        uses: Azure/login@v1
+        with:
+          tenant-id: ${{ secrets.TENANT_ID }}
+          client-id: ${{ secrets.CLIENT_ID }}
+          subscription-id: ${{ secrets.SUBSCRIPTION_ID }}
+      - name: Running preflight validation
+        uses: azure/arm-deploy@v1
+        with:
+          resourceGroupName: rg-${{ env.WORKLOAD }}-${{ env.ARTIFACT }}-${{ env.ENVIRONMENT }}-${{ env.LOCATION }}
+          template: ./${{env.ARTIFACT}}-infrastructure/main.bicep
+          parameters: location=${{ env.LOCATION }} environment=${{ env.ENVIRONMENT }} workload=${{ env.WORKLOAD }} artifact=${{ env.ARTIFACT }} deploymentIdentity=roman.pena@inchworks.net
+          deploymentMode: Validate
+          scope: resourcegroup
+          region: ${{ env.LOCATION }}
+      - name: Deploy Azure Infrastructure
+        uses: azure/arm-deploy@v1
+        with:
+          resourceGroupName: rg-${{ env.WORKLOAD }}-${{ env.ARTIFACT }}-${{ env.ENVIRONMENT }}-${{ env.LOCATION }}
+          template: ./${{env.ARTIFACT}}-infrastructure/main.bicep
+          parameters: location=${{ env.LOCATION }} environment=${{ env.ENVIRONMENT }} workload=${{ env.WORKLOAD }} artifact=${{ env.ARTIFACT }} deploymentIdentity=roman.pena@inchworks.net
+          scope: resourcegroup
+          region: ${{ env.LOCATION }}
+      - name: Upload Latest Artifact to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: app-${{ env.WORKLOAD }}-${{ env.ARTIFACT }}-${{ env.ENVIRONMENT }}-${{ env.LOCATION }}
+          package: ./${{ env.ARTIFACT }}-app
+          

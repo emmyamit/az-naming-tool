@@ -1,0 +1,41 @@
+name: Build 
+on:
+  push:
+    branches:
+      - main
+env:
+  ARTIFACT: az-naming-tool
+  APP_DIRECTORY: app
+  BUILD_DIRECTORY: build
+  INFRASTRUCTURE_DIRECTORY: infrastructure
+  DOTNET_VERSION: '6.0.x'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checking out code from repository
+      uses: actions/checkout@v3
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+    - name: Install dependencies
+      working-directory: ${{ env.APP_DIRECTORY }}
+      run: dotnet restore ./AzureNamingTool.csproj
+    # - name: Build
+    #   working-directory: ${{ env.APP_DIRECTORY }}
+    #   run: dotnet build "AzureNamingTool.csproj" -c Release -o build
+    - name: Publish
+      working-directory: ${{ env.APP_DIRECTORY }}
+      run: dotnet publish "AzureNamingTool.csproj" -c Release -o publish
+    - name: Uploading Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.ARTIFACT }}-app
+        path: ${{ env.APP_DIRECTORY }}/publish
+    - name: Uploading Infrastructure Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.ARTIFACT }}-infrastructure
+        path:  ${{ env.INFRASTRUCTURE_DIRECTORY }}

@@ -2,9 +2,16 @@
 
 The Naming Tool was developed using a naming pattern based on Microsoft's best practices. Once the organizational components have been defined by an administrator, users can use the tool to generate a name for the desired Azure resource.
 
+The Naming Tool can be accessed at: [https://app-gov-az-naming-tool-dev-eastus2.azurewebsites.net](https://app-gov-az-naming-tool-dev-eastus2.azurewebsites.net)
+
+
 ## Application Architecture
 
 ![Architecture](./docs/az-naming-tool-app-arch.jpeg)
+
+## Local development
+
+The recommended way to deploy the Azure Naming tool locally is using Docker. The project contains Docker support. Follow the instructions at [Run as a Docker image](https://github.com/microsoft/CloudAdoptionFramework/blob/master/ready/AzNamingTool/INSTALLATION.md#run-as-a-docker-image) to have the tool deployed locally.
 
 ## Build and deployment
 

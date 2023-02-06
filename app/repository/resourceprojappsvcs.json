@@ -1,1 +1,8 @@
-[{"id":4,"name":"Sample Project/App/Service","shortName":"spa","sortOrder":1}]
+[
+  {
+    "id": 1,
+    "name": "Workload name (Project/App/Service)",
+    "shortName": "workload-name",
+    "sortOrder": 1
+  }
+]

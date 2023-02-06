@@ -7,38 +7,122 @@
   },
   {
     "id": 2,
-    "name": "Production",
-    "shortName": "prd",
+    "name": "Development-Alpha",
+    "shortName": "adev",
     "sortOrder": 2
   },
   {
     "id": 3,
-    "name": "Sandbox",
-    "shortName": "sbx",
+    "name": "Development-Beta",
+    "shortName": "bdev",
     "sortOrder": 3
   },
   {
     "id": 4,
-    "name": "Shared",
-    "shortName": "shd",
+    "name": "Development-Gamma",
+    "shortName": "gdev",
     "sortOrder": 4
   },
   {
     "id": 5,
-    "name": "Staging",
-    "shortName": "stg",
+    "name": "Test",
+    "shortName": "tst",
     "sortOrder": 5
   },
   {
     "id": 6,
-    "name": "Test",
-    "shortName": "tst",
+    "name": "Test-Alpha",
+    "shortName": "atst",
     "sortOrder": 6
   },
   {
     "id": 7,
+    "name": "Test-Beta",
+    "shortName": "btst",
+    "sortOrder": 7
+  },
+  {
+    "id": 8,
+    "name": "Test-Gamma",
+    "shortName": "gtst",
+    "sortOrder": 8
+  },
+  {
+    "id": 9,
     "name": "UAT",
     "shortName": "uat",
-    "sortOrder": 7
+    "sortOrder": 9
+  },
+  {
+    "id": 10,
+    "name": "UAT-Alpha",
+    "shortName": "auat",
+    "sortOrder": 10
+  },
+  {
+    "id": 11,
+    "name": "UAT-Beta",
+    "shortName": "buat",
+    "sortOrder": 11
+  },
+  {
+    "id": 12,
+    "name": "UAT-Gamma",
+    "shortName": "guat",
+    "sortOrder": 12
+  },
+  {
+    "id": 13,
+    "name": "Performance",
+    "shortName": "prf",
+    "sortOrder": 13
+  },
+  {
+    "id": 14,
+    "name": "Performance-Alpha",
+    "shortName": "aprf",
+    "sortOrder": 14
+  },
+  {
+    "id": 15,
+    "name": "Performance-Beta",
+    "shortName": "bprf",
+    "sortOrder": 15
+  },
+  {
+    "id": 16,
+    "name": "Performance-Gamma",
+    "shortName": "gprf",
+    "sortOrder": 16
+  },
+  {
+    "id": 17,
+    "name": "SIT",
+    "shortName": "sit",
+    "sortOrder": 17
+  },
+  {
+    "id": 18,
+    "name": "SIT-Alpha",
+    "shortName": "asit",
+    "sortOrder": 18
+  },
+  {
+    "id": 19,
+    "name": "SIT-Beta",
+    "shortName": "bsit",
+    "sortOrder": 19
+  },
+  {
+    "id": 20,
+    "name": "SIT-Gamma",
+    "shortName": "gsit",
+    "sortOrder": 20
+  },
+  {
+    "id": 20,
+    "name": "Production",
+    "shortName": "prd",
+    "sortOrder": 20
   }
 ]

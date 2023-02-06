@@ -10,20 +10,20 @@
     "id": 3,
     "name": "ResourceOrg",
     "displayname": "Orgs",
-    "enabled": true,
+    "enabled": false,
     "sortOrder": 2
   },
   {
     "id": 7,
     "name": "ResourceUnitDept",
     "displayname": "Units/Depts",
-    "enabled": true,
+    "enabled": false,
     "sortOrder": 3
   },
   {
     "id": 6,
     "name": "ResourceProjAppSvc",
-    "displayname": "Projects/Apps/Services",
+    "displayname": "Workload name (Project/App/Service)",
     "enabled": true,
     "sortOrder": 4
   },
@@ -31,7 +31,7 @@
     "id": 8,
     "name": "ResourceFunction",
     "displayname": "Functions",
-    "enabled": true,
+    "enabled": false,
     "sortOrder": 5
   },
   {

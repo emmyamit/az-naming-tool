@@ -1,272 +1,388 @@
 [
     {
-        "id": 1,
-        "name": "Australia Central",
-        "shortName": "ac"
+      "id": 1,
+      "name": "East US",
+      "shortName": "eastus"
     },
     {
-        "id": 2,
-        "name": "Australia Central 2",
-        "shortName": "ac2"
+      "id": 2,
+      "name": "East US 2",
+      "shortName": "eastus2"
     },
     {
-        "id": 3,
-        "name": "Australia East",
-        "shortName": "ae"
+      "id": 3,
+      "name": "South Central US",
+      "shortName": "southcentralus"
     },
     {
-        "id": 4,
-        "name": "Australia Southeast",
-        "shortName": "as"
+      "id": 4,
+      "name": "West US 2",
+      "shortName": "westus2"
     },
     {
-        "id": 5,
-        "name": "Brazil South",
-        "shortName": "bs2"
+      "id": 5,
+      "name": "West US 3",
+      "shortName": "westus3"
     },
     {
-        "id": 6,
-        "name": "Brazil Southeast",
-        "shortName": "bs"
+      "id": 6,
+      "name": "Australia East",
+      "shortName": "australiaeast"
     },
     {
-        "id": 7,
-        "name": "Canada Central",
-        "shortName": "cc"
+      "id": 7,
+      "name": "Southeast Asia",
+      "shortName": "southeastasia"
     },
     {
-        "id": 8,
-        "name": "Canada East",
-        "shortName": "ce"
+      "id": 8,
+      "name": "North Europe",
+      "shortName": "northeurope"
     },
     {
-        "id": 9,
-        "name": "Central India",
-        "shortName": "ci"
+      "id": 9,
+      "name": "Sweden Central",
+      "shortName": "swedencentral"
     },
     {
-        "id": 10,
-        "name": "Central US",
-        "shortName": "cu"
+      "id": 10,
+      "name": "UK South",
+      "shortName": "uksouth"
     },
     {
-        "id": 11,
-        "name": "China East",
-        "shortName": "ce"
+      "id": 11,
+      "name": "West Europe",
+      "shortName": "westeurope"
     },
     {
-        "id": 12,
-        "name": "China East 2",
-        "shortName": "ce2"
+      "id": 12,
+      "name": "Central US",
+      "shortName": "centralus"
     },
     {
-        "id": 13,
-        "name": "China North",
-        "shortName": "cn"
+      "id": 13,
+      "name": "South Africa North",
+      "shortName": "southafricanorth"
     },
     {
-        "id": 14,
-        "name": "China North 2",
-        "shortName": "cn2"
+      "id": 14,
+      "name": "Central India",
+      "shortName": "centralindia"
     },
     {
-        "id": 15,
-        "name": "East Asia",
-        "shortName": "ea"
+      "id": 15,
+      "name": "East Asia",
+      "shortName": "eastasia"
     },
     {
-        "id": 16,
-        "name": "East US",
-        "shortName": "eu"
+      "id": 16,
+      "name": "Japan East",
+      "shortName": "japaneast"
     },
     {
-        "id": 17,
-        "name": "East US 2",
-        "shortName": "eu2"
+      "id": 17,
+      "name": "Korea Central",
+      "shortName": "koreacentral"
     },
     {
-        "id": 18,
-        "name": "France Central",
-        "shortName": "fc"
+      "id": 18,
+      "name": "Canada Central",
+      "shortName": "canadacentral"
     },
     {
-        "id": 19,
-        "name": "France South",
-        "shortName": "fs"
+      "id": 19,
+      "name": "France Central",
+      "shortName": "francecentral"
     },
     {
-        "id": 20,
-        "name": "Germany North",
-        "shortName": "gn"
+      "id": 20,
+      "name": "Germany West Central",
+      "shortName": "germanywestcentral"
     },
     {
-        "id": 21,
-        "name": "Germany West Central",
-        "shortName": "gwc"
+      "id": 21,
+      "name": "Norway East",
+      "shortName": "norwayeast"
     },
     {
-        "id": 22,
-        "name": "Japan East",
-        "shortName": "je"
+      "id": 22,
+      "name": "Switzerland North",
+      "shortName": "switzerlandnorth"
     },
     {
-        "id": 23,
-        "name": "Japan West",
-        "shortName": "jw"
+      "id": 23,
+      "name": "UAE North",
+      "shortName": "uaenorth"
     },
     {
-        "id": 24,
-        "name": "Jio India West",
-        "shortName": "jiw"
+      "id": 24,
+      "name": "Brazil South",
+      "shortName": "brazilsouth"
     },
     {
-        "id": 25,
-        "name": "Korea Central",
-        "shortName": "kc"
+      "id": 25,
+      "name": "East US 2 EUAP",
+      "shortName": "eastus2euap"
     },
     {
-        "id": 26,
-        "name": "Korea South",
-        "shortName": "ks"
+      "id": 26,
+      "name": "Qatar Central",
+      "shortName": "qatarcentral"
     },
     {
-        "id": 27,
-        "name": "New Zealand North",
-        "shortName": "nzn"
+      "id": 27,
+      "name": "Central US (Stage)",
+      "shortName": "centralusstage"
     },
     {
-        "id": 28,
-        "name": "North Central US",
-        "shortName": "ncu"
+      "id": 28,
+      "name": "East US (Stage)",
+      "shortName": "eastusstage"
     },
     {
-        "id": 29,
-        "name": "North Europe",
-        "shortName": "ne2"
+      "id": 29,
+      "name": "East US 2 (Stage)",
+      "shortName": "eastus2stage"
     },
     {
-        "id": 30,
-        "name": "Norway East",
-        "shortName": "ne"
+      "id": 30,
+      "name": "North Central US (Stage)",
+      "shortName": "northcentralusstage"
     },
     {
-        "id": 31,
-        "name": "Norway West",
-        "shortName": "nw"
+      "id": 31,
+      "name": "South Central US (Stage)",
+      "shortName": "southcentralusstage"
     },
     {
-        "id": 32,
-        "name": "South Africa North",
-        "shortName": "san"
+      "id": 32,
+      "name": "West US (Stage)",
+      "shortName": "westusstage"
     },
     {
-        "id": 33,
-        "name": "South Africa West",
-        "shortName": "saw"
+      "id": 33,
+      "name": "West US 2 (Stage)",
+      "shortName": "westus2stage"
     },
     {
-        "id": 34,
-        "name": "South Central US",
-        "shortName": "scu"
+      "id": 34,
+      "name": "Asia",
+      "shortName": "asia"
     },
     {
-        "id": 35,
-        "name": "South India",
-        "shortName": "si"
+      "id": 35,
+      "name": "Asia Pacific",
+      "shortName": "asiapacific"
     },
     {
-        "id": 36,
-        "name": "Southeast Asia",
-        "shortName": "sa"
+      "id": 36,
+      "name": "Australia",
+      "shortName": "australia"
     },
     {
-        "id": 37,
-        "name": "Switzerland North",
-        "shortName": "sn"
+      "id": 37,
+      "name": "Brazil",
+      "shortName": "brazil"
     },
     {
-        "id": 38,
-        "name": "Switzerland West",
-        "shortName": "sw"
+      "id": 38,
+      "name": "Canada",
+      "shortName": "canada"
     },
     {
-        "id": 39,
-        "name": "UAE Central",
-        "shortName": "uc"
+      "id": 39,
+      "name": "Europe",
+      "shortName": "europe"
     },
     {
-        "id": 40,
-        "name": "UAE North",
-        "shortName": "un"
+      "id": 40,
+      "name": "France",
+      "shortName": "france"
     },
     {
-        "id": 41,
-        "name": "UK South",
-        "shortName": "us"
+      "id": 41,
+      "name": "Germany",
+      "shortName": "germany"
     },
     {
-        "id": 42,
-        "name": "UK West",
-        "shortName": "uw"
+      "id": 42,
+      "name": "Global",
+      "shortName": "global"
     },
     {
-        "id": 43,
-        "name": "USDoD Central",
-        "shortName": "uc"
+      "id": 43,
+      "name": "India",
+      "shortName": "india"
     },
     {
-        "id": 44,
-        "name": "USDoD East",
-        "shortName": "ue"
+      "id": 44,
+      "name": "Japan",
+      "shortName": "japan"
     },
     {
-        "id": 45,
-        "name": "USGov Arizona",
-        "shortName": "ua"
+      "id": 45,
+      "name": "Korea",
+      "shortName": "korea"
     },
     {
-        "id": 46,
-        "name": "USGov Iowa",
-        "shortName": "ui"
+      "id": 46,
+      "name": "Norway",
+      "shortName": "norway"
     },
     {
-        "id": 47,
-        "name": "USGov Texas",
-        "shortName": "ut"
+      "id": 47,
+      "name": "Singapore",
+      "shortName": "singapore"
     },
     {
-        "id": 48,
-        "name": "USGov Virginia",
-        "shortName": "uv"
+      "id": 48,
+      "name": "South Africa",
+      "shortName": "southafrica"
     },
     {
-        "id": 49,
-        "name": "West Central US",
-        "shortName": "wcu"
+      "id": 49,
+      "name": "Switzerland",
+      "shortName": "switzerland"
     },
     {
-        "id": 50,
-        "name": "West Europe",
-        "shortName": "we"
+      "id": 50,
+      "name": "United Arab Emirates",
+      "shortName": "uae"
     },
     {
-        "id": 51,
-        "name": "West India",
-        "shortName": "wi"
+      "id": 51,
+      "name": "United Kingdom",
+      "shortName": "uk"
     },
     {
-        "id": 52,
-        "name": "West US",
-        "shortName": "wu"
+      "id": 52,
+      "name": "United States",
+      "shortName": "unitedstates"
     },
     {
-        "id": 53,
-        "name": "West US 2",
-        "shortName": "wu2"
+      "id": 53,
+      "name": "United States EUAP",
+      "shortName": "unitedstateseuap"
     },
     {
-        "id": 54,
-        "name": "West US 3",
-        "shortName": "wu3"
+      "id": 54,
+      "name": "East Asia (Stage)",
+      "shortName": "eastasiastage"
+    },
+    {
+      "id": 55,
+      "name": "Southeast Asia (Stage)",
+      "shortName": "southeastasiastage"
+    },
+    {
+      "id": 56,
+      "name": "North Central US",
+      "shortName": "northcentralus"
+    },
+    {
+      "id": 57,
+      "name": "West US",
+      "shortName": "westus"
+    },
+    {
+      "id": 58,
+      "name": "Jio India West",
+      "shortName": "jioindiawest"
+    },
+    {
+      "id": 59,
+      "name": "Central US EUAP",
+      "shortName": "centraluseuap"
+    },
+    {
+      "id": 60,
+      "name": "West Central US",
+      "shortName": "westcentralus"
+    },
+    {
+      "id": 61,
+      "name": "South Africa West",
+      "shortName": "southafricawest"
+    },
+    {
+      "id": 62,
+      "name": "Australia Central",
+      "shortName": "australiacentral"
+    },
+    {
+      "id": 63,
+      "name": "Australia Central 2",
+      "shortName": "australiacentral2"
+    },
+    {
+      "id": 64,
+      "name": "Australia Southeast",
+      "shortName": "australiasoutheast"
+    },
+    {
+      "id": 65,
+      "name": "Japan West",
+      "shortName": "japanwest"
+    },
+    {
+      "id": 66,
+      "name": "Jio India Central",
+      "shortName": "jioindiacentral"
+    },
+    {
+      "id": 67,
+      "name": "Korea South",
+      "shortName": "koreasouth"
+    },
+    {
+      "id": 68,
+      "name": "South India",
+      "shortName": "southindia"
+    },
+    {
+      "id": 69,
+      "name": "West India",
+      "shortName": "westindia"
+    },
+    {
+      "id": 70,
+      "name": "Canada East",
+      "shortName": "canadaeast"
+    },
+    {
+      "id": 71,
+      "name": "France South",
+      "shortName": "francesouth"
+    },
+    {
+      "id": 72,
+      "name": "Germany North",
+      "shortName": "germanynorth"
+    },
+    {
+      "id": 73,
+      "name": "Norway West",
+      "shortName": "norwaywest"
+    },
+    {
+      "id": 74,
+      "name": "Switzerland West",
+      "shortName": "switzerlandwest"
+    },
+    {
+      "id": 75,
+      "name": "UK West",
+      "shortName": "ukwest"
+    },
+    {
+      "id": 76,
+      "name": "UAE Central",
+      "shortName": "uaecentral"
+    },
+    {
+      "id": 77,
+      "name": "Brazil Southeast",
+      "shortName": "brazilsoutheast"
     }
-]
+  ]
+  

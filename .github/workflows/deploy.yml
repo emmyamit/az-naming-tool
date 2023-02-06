@@ -1,4 +1,4 @@
-name: Deploy to Development - OIDC
+name: Deploy
 on:
   workflow_dispatch:
     inputs:
@@ -9,6 +9,7 @@ on:
 permissions:
   id-token: write
   contents: read
+  actions: read
 
 env:
   ARTIFACT: az-naming-tool
